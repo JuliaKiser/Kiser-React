@@ -1,10 +1,21 @@
+import NavBar from "./components/navbar/navbar.js";
+import About from "./components/About/about.js";
+import ContactMe from "./components/Contact/contact";
+import Home from "./components/Home/home";
+import Projects from "./components/Projects/projects";
+import Skills from "./components/Skills/skills";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-<h1>Hello World</h1>
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <Skills />
+      <ContactMe />   
     </div>
   );
-}
+};
 
 export default App;
