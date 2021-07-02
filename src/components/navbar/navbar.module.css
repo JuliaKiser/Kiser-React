@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar  nav ul {
  list-style: none;
@@ -22,4 +23,9 @@
 
 .navbar nav ul li a {
     text-decoration: none;
+    color:white;
+}
+
+.navbar nav ul li a:hover {
+    border-bottom: 3px solid rgb(233, 143, 143);
 }
