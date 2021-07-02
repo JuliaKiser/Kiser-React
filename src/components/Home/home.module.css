@@ -1,0 +1,12 @@
+
+.home {
+    display:flex;
+    height: 1200px;
+    padding-top: 80px;
+    background-image: url("../../images/home.jpg");
+}
+
+.home .container h1  {
+    margin:0;
+}
+
