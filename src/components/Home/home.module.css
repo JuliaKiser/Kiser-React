@@ -4,9 +4,28 @@
     height: 100vh;
     padding-top: 80px;
     background-image: url("../../images/home.jpg");
+    background-size: cover;
+    color: black;
 }
 
 .home .container h1  {
-    margin:0;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 75px;
 }
 
+.home .container h2  {
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.home .gif {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    width: 40%;
+    height: 50%;
+}

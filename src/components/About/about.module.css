@@ -1,0 +1,29 @@
+.AboutMe {
+    /* background-color:black; */
+    background-image: url("../../images/about.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 5%;
+}
+.AboutMe .container {
+    display:flex;
+}
+.AboutMe .container .text{
+    width: 47%;
+    margin-left: 3%;
+
+}
+.AboutMe .container .text h2 {
+    font-weight: 900;
+    font-size:46px;
+}
+.AboutMe .container .photo {
+    display:flex;
+    width:50%;
+    justify-content: center;
+}
+.AboutMe .me {
+    height: 500px;
+    border-radius: 10%;
+}
+
