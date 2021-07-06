@@ -1,0 +1,18 @@
+.Skills {
+  /* display: flex; */
+  height: 100vh;
+  padding-top: 80px;
+  background-image: url("../../images/skills.jpg");
+  background-size: cover;
+  color: black;
+}
+
+.Skills .list ul {
+  color: black;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills .constainer {
+  display: flex;
+}
