@@ -1,5 +1,4 @@
 .Skills {
-  /* display: flex; */
   height: 100vh;
   padding-top: 80px;
   background-image: url("../../images/skills.jpg");
@@ -15,4 +14,11 @@
 
 .Skills .constainer {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.Skills .constainer .list {
+  flex-basis: 33%;
+  background: black;
+  font: 73px;
 }

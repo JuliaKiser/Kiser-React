@@ -65,7 +65,11 @@ const Skills = () => {
       </p>
       <div className={styles.container}>
         {totalSkills.map(skills => {
-          return <div className={styles.list}>{skills}</div>;
+            return (
+                <div className = {styles.list}>
+                    {skills}
+                    </div>
+            )
         })}
       </div>
     </div>
