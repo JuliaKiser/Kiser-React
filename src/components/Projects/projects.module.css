@@ -28,8 +28,18 @@
 .project .VideoContainer .Thumbnail {
   padding-left: 2.5%;
   padding-right: 2.5%;
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
 }
 
+.project .VideoContainer .Thumbnail .linkButton {
+  position: absolute;
+  width: 24%;
+  left:44%;
+  top: 29%;
+
+}
 .project .Videos .VideoContainer {
   display: flex;
   background: rgb(51, 133, 165);
