@@ -4,6 +4,16 @@ import Marvel from "../../images/Marvel-Eye.gif";
 import Blog from "../../images/TechBlog.gif";
 import TeamGen from "../../images/TeamGen.gif";
 
+const linkBtnSvg = (url) => {
+  return (
+    <div className={styles.linkButton}
+    onClick={(e) => window.open(url, "_blank").focus}>
+<svg >
+  <path></path>
+</svg>
+    </div>
+  )
+}
 const projectClip = (url, thumbnail, description) => {
   return (
     <div className={styles.VideoContainer}>
@@ -37,7 +47,8 @@ const project = () => {
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </p>
-          <div className={styles.Videos}></div>
+        </div>
+        <div className={styles.Videos}>
           {projectClip(
             "https://github.com/JuliaKiser/Marvel.Eye",
             Marvel,
