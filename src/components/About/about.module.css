@@ -1,5 +1,5 @@
 .AboutMe {
-    display:flex;
+    /* display:flex; */
     background-image: url("../../images/project.jpg");
     background-size: cover;
     height: 100vh;

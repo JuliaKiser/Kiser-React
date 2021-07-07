@@ -2,8 +2,8 @@
   /* height: 225vh;
   padding-top: 80px; */
   background-image: url("../../images/about.jpg");
-  /* background-size: cover;
-  color: black; */
+  background-size: cover;
+  /* color: black; */ 
 }
 .project .projectcontent {
   display: flex;

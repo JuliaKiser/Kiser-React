@@ -45,16 +45,14 @@ const teamProjectDescription = `This web application allows the user to create, 
 const project = () => {
   return (
     <div className={styles.project}>
-      <PageHeader title={"PROJECTS"} />
+      <PageHeader title={"Projects"} />
       <div className={styles.projectcontent}>
         <div className={styles.Paragraph}>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            Click the image to view each repository for the following projects.
+            There you will also find deployed links for each as well as all my
+            other repository and projects located within my GitHub profile. Feel
+            free to follow me or reach out with any questions regarding.
           </p>
         </div>
         <div className={styles.Videos}>
