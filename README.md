@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# Kiser-React Portfolio
+
+## Table of Contents
+
+1. [Application Links](##Application-Links)
+2. [Getting Started](##Getting-Started)
+3. [Webpage Details](##Webpage-Details)
+4. [Demo Video](##Demo-Video)
+5. [Requirements](##Requirements)
+
+## Portfolio Links
+
+Deployed Link: https://juliakiser.github.io/Kiser-React/
+
+Github Repo Link: https://github.com/JuliaKiser/Kiser-React
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -27,45 +41,29 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Webpage Details
 
-### `npm run eject`
+My react portfolio takes the skills gained throughout this course and really puts them to the test. Utilizing the component structure and creating a react app, I was able to customize each component and section of my portfolio.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+My portfolio gives you insight into a litle bit about me as a developer, my skills, a few projects that I am particularly proud of, as well as contact information and other resources to learn more about me.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demo Video
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Kiser React Portfolio](src/images/ReactPort.gif)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Requirements
 
-## Learn More
+- Satisfies all of the preceding acceptance criteria plus the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - Application’s folder structure follows the Model-View-Controller paradigm.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
 
-### Code Splitting
+  - Application must be deployed to Heroku.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Back to Top](##Table-of-Contents)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Kiser-React
