@@ -1,9 +1,10 @@
 import styles from "./skills.module.css";
 import PageHeader from "../PageHeader/PageHeader";
 
+const listTitleStyle = { fontWeight: 900, color: '#9B1FE8', marginBottom: '4px'}
 const backendSkills = (
   <ul>
-    <li>BACKEND </li>
+    <li style={listTitleStyle}>BACKEND </li>
     <li>Javascript-mySQL-Node.js</li>
     <li>Express.js-PHP-Python</li>
   </ul>
@@ -11,36 +12,43 @@ const backendSkills = (
 
 const frontendSkills = (
   <ul>
-    <li>FRONTEND</li>
+    <li style={listTitleStyle}>FRONTEND</li>
     <li>HTML - ReactJS - CSS</li>
   </ul>
 );
 
-const otherSkills = 
+const otherSkills = (
   <ul>
-    <li>OTHER PROGRAMMING APPS</li>
+    <li style={listTitleStyle}>OTHER PROGRAMMING APPS</li>
     <li>Github - Heroku - Squarespace</li>
   </ul>
+);
 
-const microsoftSkills = 
+const microsoftSkills = (
   <ul>
-    <li>MICROSOFT</li>
+    <li style={listTitleStyle}>MICROSOFT SKILLS</li>
     <li>Word - Powerpoint - Access Database</li>
     <li>Excel - Outlook</li>
   </ul>
+);
 
-
-const applicationSkills = 
+const applicationSkills = (
   <ul>
-    <li>OTHER APPLICATIONS</li>
-    <li>Customer Relationship Management CRM - Apex - WebMenu</li>
+    <li style={listTitleStyle}>OTHER APPLICATIONS</li>
+    <li>Customer Relationship Management CRM</li>
+    <li>Apex - Web Menu Fringe</li>
     <li>Peoplesoft - Oracle - Deltek Timekeeping</li>
   </ul>
+);
 
-const moreSkills = 
+const moreSkills = (
   <ul>
-    <li>MORE</li>
+    <li style={listTitleStyle}>MORE SKILLS</li>
+    <li> VP/Employee Resource Group</li>
+    <li>Leadership - Organization Skills</li>
+    <li>Effective Communication - Interpersonal Skills</li>
   </ul>
+);
 
 const totalSkills = [
   backendSkills,
@@ -54,22 +62,20 @@ const totalSkills = [
 const Skills = () => {
   return (
     <div className={styles.Skills}>
-      <PageHeader title={"What about the Skills?"} />
+      <PageHeader title={"Check out all my skills!"} />
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book. It has survived not only five
         centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. 
+        essentially unchanged.
       </p>
       <div className={styles.container}>
-        {totalSkills.map(skills => {
-            return (
-                <div className = {styles.list}>
-                    {skills}
-                    </div>
-            )
+        {totalSkills.map((skills, index) => {
+          return <div key="{index}" className={styles.list}>
+            {skills}
+          </div>;
         })}
       </div>
     </div>
