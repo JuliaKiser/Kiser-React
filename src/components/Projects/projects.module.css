@@ -1,8 +1,8 @@
 .project {
-    /* display: flex; */
-    height: 100vh;
-    padding-top: 80px;
-    background-image: url("../../images/project.jpg");
-    background-size: cover;
-    color: black;
-  }
+  /* display: flex; */
+  height: 100vh;
+  padding-top: 80px;
+  background-image: url("../../images/about.jpg");
+  background-size: cover;
+  color: black;
+}

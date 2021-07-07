@@ -1,7 +1,11 @@
 import styles from "./skills.module.css";
 import PageHeader from "../PageHeader/PageHeader";
 
-const listTitleStyle = { fontWeight: 900, color: '#9B1FE8', marginBottom: '4px'}
+const listTitleStyle = {
+  fontWeight: 900,
+  color: "#9B1FE8",
+  marginBottom: "4px",
+};
 const backendSkills = (
   <ul>
     <li style={listTitleStyle}>BACKEND </li>
@@ -64,18 +68,20 @@ const Skills = () => {
     <div className={styles.Skills}>
       <PageHeader title={"Check out all my skills!"} />
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.
+        Full Stack Web Developer leveraging background in Finance and Shared
+        Services operations to apply problem solving and creativity to develop
+        user friendly web applications. Versatile, results oriented, and
+        analytical in resolving issues in fast paced environments with the
+        ability to work independently. Self-starter, personally committed to
+        continuous learning and proven leadership skills.
       </p>
       <div className={styles.container}>
         {totalSkills.map((skills, index) => {
-          return <div key="{index}" className={styles.list}>
-            {skills}
-          </div>;
+          return (
+            <div key="{index}" className={styles.list}>
+              {skills}
+            </div>
+          );
         })}
       </div>
     </div>
