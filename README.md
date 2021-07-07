@@ -10,7 +10,7 @@
 
 ## Portfolio Links
 
-Deployed Link: https://juliakiser.github.io/Kiser-React/
+Deployed Link: https://kiser-portfolio.herokuapp.com/
 
 Github Repo Link: https://github.com/JuliaKiser/Kiser-React
 
