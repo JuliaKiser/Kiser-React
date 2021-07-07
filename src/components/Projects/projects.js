@@ -44,7 +44,7 @@ const teamProjectDescription = `This web application allows the user to create, 
 
 const project = () => {
   return (
-    <div className={styles.project}>
+    <div className={styles.project} id="projects">
       <PageHeader title={"Projects"} />
       <div className={styles.projectcontent}>
         <div className={styles.Paragraph}>

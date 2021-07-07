@@ -65,7 +65,7 @@ const totalSkills = [
 
 const Skills = () => {
   return (
-    <div className={styles.Skills}>
+    <div className={styles.Skills} id="skills">
       <PageHeader title={"Check out all my skills!"} />
       <p>
         Full Stack Web Developer leveraging background in Finance and Shared

@@ -6,7 +6,7 @@ const handleURL = (url) => {
 }
 const Contact = () => {
     return (
-        <div className={styles.Contact}>
+        <div className={styles.Contact} id="contact">
             <div className={styles.ContactIcons}>
             <FaPhoneAlt color='black' size='40px' style={{padding: '1%'}}
             onClick={handleURL('https://hihello.me/p/bcb53d30-d5ed-45dd-bee1-00cddb3e4fd5')} />
